@@ -22,10 +22,10 @@ class App extends Component {
 		return (
 			<div id="main">
 				{ /* Do not remove this main div!! */}
-				<p>{this.state.msg}</p>
+				<p id="para">{this.state.msg}</p>
 
 				{/* Set click handler */}
-				<button onClick={this.handleClick}>
+				<button onClick={this.handleClick} id="click">
 					Click Me!
 				</button>
 			</div>
