@@ -1,5 +1,4 @@
 import React, { Component, useState } from "react";
-​
 class App extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +12,6 @@ class App extends Component {
       showParagraph: true
     });
   }
-​
   render() {
     return (
       <div id="main">
@@ -31,5 +29,4 @@ class App extends Component {
     );
   }
 }
-​
 export default App;
